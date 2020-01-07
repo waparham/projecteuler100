@@ -6,11 +6,7 @@ while x + y < 4000000:
     y = x + y
     if y % 2 == 0:
         z = z + y
-    else:
-        continue
     x = x + y
     if x % 2 == 0:
         z = z + x
-    else:
-        continue
 print(str(z))
